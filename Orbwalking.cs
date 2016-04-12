@@ -1118,7 +1118,7 @@ namespace LeagueSharp.Common
                 }
 
                 /*Killable Minion*/
-                if (mode == OrbwalkingMode.LaneClear || mode == OrbwalkingMode.Mixed || mode == OrbwalkingMode.LastHit ||
+                if (mode == OrbwalkingMode.LaneClear || mode == OrbwalkingMode.LastHit ||
                     mode == OrbwalkingMode.Freeze)
                 {
                     var MinionList =
